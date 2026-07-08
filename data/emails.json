@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "category": "billing",
+    "subject": "Charged twice this month",
+    "incoming_email": "Hi,\n\nI just checked my credit card statement and I see two charges of $49 from Hiver on the same date (June 15). This has to be a mistake. My account number is #ACC-5892. I need a refund for the duplicate charge immediately.\n\nThanks,\nSarah Johnson",
+    "reply": "Dear Sarah,\n\nThank you for flagging this. I can confirm I see two charges on account #ACC-5892 dated June 15 and I sincerely apologize for this billing error.\n\nI've initiated a full refund of $49 for the duplicate charge. It will appear on your statement within 5-7 business days depending on your bank.\n\nI've also added a note to your account to ensure this doesn't recur. If you don't see the refund after 7 business days, please reply to this email and I'll escalate it immediately.\n\nBest regards,\nHiver Support"
+  },
+  {
+    "id": 2,
+    "category": "billing",
+    "subject": "Need invoice for last quarter",
+    "incoming_email": "Hello,\n\nOur finance team needs invoices for Q1 2024 (January through March) for accounting purposes. We're on the Business plan. Could you please send those over?\n\nCompany: Bright Solutions Ltd\nAccount: bright-solutions@company.com\n\nThank you",
+    "reply": "Hello,\n\nAbsolutely, happy to help with that. I've pulled the Q1 2024 invoices for Bright Solutions Ltd and attached them to this email (January, February, and March).\n\nYou can also download any past invoices directly from your billing portal: Settings > Billing > Invoice History.\n\nLet me know if your finance team needs anything else — VAT breakdown, purchase order references, or anything else.\n\nBest,\nHiver Support"
+  },
+  {
+    "id": 3,
+    "category": "billing",
+    "subject": "Want to upgrade from Starter to Business",
+    "incoming_email": "Hi there,\n\nWe're growing fast and our team of 3 needs to expand to around 12 users. We're currently on the Starter plan and need to move to Business. Can you walk me through the pricing and how the billing works for the switch? Do we get prorated credit for unused Starter days?\n\nBest,\nMike Chen",
+    "reply": "Hi Mike,\n\nCongrats on the growth — that's exciting! Here's how the upgrade works:\n\nThe Business plan is $39/user/month (billed monthly) or $29/user/month (billed annually). For 12 users that's $468/month or $348/month annually.\n\nYes, you'll receive a prorated credit for the remaining days on your current Starter plan, which will be applied to your first Business invoice — so you won't pay double.\n\nTo upgrade, go to Settings > Billing > Change Plan, or I can handle it from my end if you prefer. Which would you like?\n\nBest,\nHiver Support"
+  },
+  {
+    "id": 4,
+    "category": "billing",
+    "subject": "Refund request after cancellation",
+    "incoming_email": "We cancelled our Hiver subscription on March 3rd but were still charged for March on the 5th. We are requesting a full refund since we cancelled before the billing date.\n\nAccount: techops@startup.io\nCancellation confirmation: CXL-9021",
+    "reply": "Hello,\n\nThank you for reaching out. I've reviewed your account and confirmed the cancellation (CXL-9021) was processed on March 3rd, before the March 5th billing date.\n\nYou're right — this charge should not have gone through. I've approved a full refund, which will be returned to your original payment method within 5-7 business days.\n\nI apologize for the inconvenience. If you reconsider using Hiver in the future, we'd love to have you back. Is there anything else I can help with?\n\nBest regards,\nHiver Support"
+  },
+  {
+    "id": 5,
+    "category": "billing",
+    "subject": "Enterprise pricing — large team",
+    "incoming_email": "Hi,\n\nWe're evaluating Hiver for our 200-person customer support team. We saw the Business plan but I assume enterprise deals are different. Could you share pricing for ~200 seats? We also need SSO, dedicated support SLA, and a custom contract.\n\nI'm the Head of CX at Meridian Corp.\n\nRegards,\nPriya Nair",
+    "reply": "Hi Priya,\n\nThank you for considering Hiver for Meridian Corp — a 200-seat deployment is exactly where our Enterprise plan shines.\n\nOur Enterprise plan includes volume pricing (significantly below the per-seat list price), SSO/SAML, dedicated Customer Success Manager, 99.9% SLA, priority support, and custom contract terms including MSA and DPA.\n\nI'd love to schedule a 30-minute call to understand your team's workflow and put together a tailored proposal. Are you available this week or next?\n\nBest,\nHiver Enterprise Team"
+  },
+  {
+    "id": 6,
+    "category": "technical",
+    "subject": "Gmail not syncing — emails missing from shared inbox",
+    "incoming_email": "Hi,\n\nOur shared support inbox stopped syncing with Gmail about 2 hours ago. New emails are coming into Gmail but not appearing in Hiver. Our team is working blind right now — this is urgent!\n\nTeam: support@ourcompany.com\nBrowser: Chrome 124\nOS: macOS",
+    "reply": "Hi,\n\nI understand how critical this is — let's get this fixed right away.\n\nHere are the steps to try first:\n1. Go to Hiver Settings > Shared Inboxes > support@ourcompany.com and click 'Re-authenticate'\n2. If that doesn't work, try revoking and re-adding Hiver's Gmail permissions at myaccount.google.com > Security > Third-party apps\n3. Clear Chrome cache and reload Hiver\n\nI'm also checking our system status on my end. If none of the above resolves it within 10 minutes, please reply and I'll escalate this to our engineering team as a P1.\n\nHiver Support"
+  },
+  {
+    "id": 7,
+    "category": "technical",
+    "subject": "Assignment rules not triggering automatically",
+    "incoming_email": "Hello,\n\nI set up assignment rules so that emails with the subject line containing 'refund' get automatically assigned to our billing team. But emails are still coming in unassigned. I've double checked the rule is enabled. What am I missing?\n\nAccount: hello@fashionstore.com",
+    "reply": "Hello,\n\nThank you for writing in. Assignment rules can be tricky — here are the most common causes:\n\n1. **Rule order**: If another rule fires first and assigns the email, the 'refund' rule won't run. Check if a catch-all rule is above it — rules run top to bottom.\n2. **Subject match**: The match is case-sensitive in some configurations. Try setting it to 'contains' (not 'equals') and check for extra spaces.\n3. **Email timing**: Rules only apply to emails received after the rule was created, not retroactively.\n\nCould you share a screenshot of your rule configuration? That'll help me spot the exact issue quickly.\n\nHiver Support"
+  },
+  {
+    "id": 8,
+    "category": "technical",
+    "subject": "Can't log in — getting 'session expired' error",
+    "incoming_email": "Hi,\n\nEvery time I try to log into Hiver I get a 'Your session has expired' error even though I just reset my password. I've tried Chrome, Firefox, and even incognito mode. Nothing works. I need access ASAP.\n\n— James Carter, james@agencypartners.co",
+    "reply": "Hi James,\n\nI'm sorry you're having trouble getting in. The 'session expired' loop after a password reset usually means there's a cached token conflict.\n\nPlease try this:\n1. Clear all cookies and site data for hiver.com (not just cache)\n2. Open a brand-new browser window (not incognito) and go directly to app.hiver.com\n3. Use the 'Sign in with Google' button rather than email/password\n\nIf you're on a company device, your IT team may have browser policies that block third-party cookies — let me know if that's the case and I'll guide you through the admin fix.\n\nHiver Support"
+  },
+  {
+    "id": 9,
+    "category": "technical",
+    "subject": "Canned responses not saving",
+    "incoming_email": "Hi Hiver team,\n\nI'm trying to create canned responses for our team but every time I click Save, the page just refreshes and the response is gone. I've tried on two different computers. Is this a known bug? We really rely on this feature.\n\nRachel, Operations Manager at GreenPath",
+    "reply": "Hi Rachel,\n\nThank you for reporting this — you're right, this is unexpected behavior and I want to get it fixed for you.\n\nA few quick questions to help me diagnose:\n1. What browser and OS are you on?\n2. Does the issue happen with short canned responses too (e.g., just 'Hello, thank you!')?\n3. Are you seeing any error messages in the page, or does it just silently refresh?\n\nIn the meantime, try creating the canned response from Settings > Canned Responses > New (rather than from inside a compose window) — some users have had better luck there.\n\nI'm flagging this to our QA team as a potential bug regardless. I'll update you as soon as I have more information.\n\nHiver Support"
+  },
+  {
+    "id": 10,
+    "category": "technical",
+    "subject": "Hiver mobile app keeps crashing on iOS",
+    "incoming_email": "The Hiver app crashes every time I open it on my iPhone. It was working fine last week. I've tried uninstalling and reinstalling but same problem. iPhone 14 Pro, iOS 17.4.\n\nThis is really frustrating as I handle support from my phone when traveling.\n\n- Anand",
+    "reply": "Hi Anand,\n\nI'm sorry about the crashes — that's definitely not the experience we want for you, especially when you're traveling.\n\nHere's what to try:\n1. Go to Settings > Hiver > and toggle off/on Background App Refresh\n2. Sign out of the app, force close it (swipe up), then sign back in\n3. If running iOS 17.4.1 or later, please update — we pushed a patch for a crash affecting iOS 17.4\n\nIf it's still crashing after the update, please send me the approximate time of the last crash so our iOS team can pull the crash report from the backend.\n\nHiver Support"
+  },
+  {
+    "id": 11,
+    "category": "technical",
+    "subject": "Email notifications stopped working",
+    "incoming_email": "Hi,\n\nI'm no longer receiving desktop notifications for new emails assigned to me. My browser notifications are enabled and I haven't changed any settings. This started 3 days ago. Other people on my team seem to be having the same issue.\n\nBest,\nLisa from Clearwater Logistics",
+    "reply": "Hi Lisa,\n\nThank you for flagging this, and I'm sorry for the disruption. The fact that multiple team members are affected suggests this may be a settings-level issue rather than device-specific.\n\nPlease ask whoever manages your Hiver workspace to check: Settings > Notifications > and confirm that notifications are enabled at the workspace level (admins can override individual settings).\n\nFor your own browser: go to chrome://settings/content/notifications, find app.hiver.com, and make sure it's set to 'Allow'.\n\nAlso, we did push an update 3 days ago — I'm checking whether it may have reset notification preferences for some accounts. I'll follow up within a few hours.\n\nHiver Support"
+  },
+  {
+    "id": 12,
+    "category": "account",
+    "subject": "How do I add a new team member?",
+    "incoming_email": "Hi,\n\nWe just hired a new support agent and I need to add her to our Hiver workspace. I'm the admin. What's the process? Do I need to buy an additional seat first?\n\nThanks,\nDavid",
+    "reply": "Hi David,\n\nGreat — welcoming a new team member is easy in Hiver!\n\nYes, you'll need one additional seat. Here's the full process:\n1. Go to Settings > Team Members > Invite\n2. Enter her Gmail address and select her role (Agent, Manager, or Admin)\n3. The system will prompt you to confirm the seat addition and update your billing prorated for the rest of the current billing cycle\n4. She'll receive an invite email and can join immediately after accepting\n\nIf you're on an annual plan and prefer to manage the billing separately, just let me know and I can handle the seat addition manually.\n\nHiver Support"
+  },
+  {
+    "id": 13,
+    "category": "account",
+    "subject": "Setting up a shared inbox for our new team",
+    "incoming_email": "Hello,\n\nWe just signed up for Hiver and want to set up a shared inbox for our customer support email (support@mybusiness.com). I'm not sure where to start. Could you walk us through it?\n\n- Tom, Co-founder at NexaFlow",
+    "reply": "Hi Tom,\n\nWelcome to Hiver — you're going to love how much smoother your team's email workflow becomes!\n\nHere's how to set up your first shared inbox:\n1. In Hiver, go to Settings > Shared Inboxes > Create New\n2. Enter 'support@mybusiness.com' and authenticate it with Google (you'll need admin access to that Google account)\n3. Add your team members and set their roles\n4. Configure assignment rules if you want emails auto-routed\n\nThe whole process takes about 10 minutes. I'd also recommend checking out our Getting Started guide (we'll link it in your welcome email).\n\nFeel free to reply here if you get stuck at any step — I'm happy to walk you through it.\n\nHiver Support"
+  },
+  {
+    "id": 14,
+    "category": "account",
+    "subject": "Transfer account ownership to new admin",
+    "incoming_email": "Hi,\n\nOur previous account admin left the company last week and we need to transfer ownership to me. I'm the new Operations Director. The old admin's email was john.doe@company.com. Can you help?\n\n— Karen Mills, karen.mills@company.com",
+    "reply": "Hi Karen,\n\nThank you for reaching out — I can help with the ownership transfer.\n\nFor security, I need to verify your identity before making changes to account ownership. Could you please:\n1. Reply from your official company email (karen.mills@company.com — which it looks like you already have)\n2. Provide the last 4 digits of the credit card on file, or the company billing address\n\nOnce verified, I can transfer admin rights to you immediately. If you have access to john.doe@company.com through IT, the fastest path is: Settings > Team > click on your name > Change Role to Admin.\n\nLet me know which option works for you.\n\nHiver Support"
+  },
+  {
+    "id": 15,
+    "category": "account",
+    "subject": "Can I have multiple shared inboxes?",
+    "incoming_email": "Hello,\n\nWe currently have one shared inbox (support@). We want to add two more: sales@ and billing@. Are multiple shared inboxes supported on our current Business plan? Is there an additional cost?\n\nThank you,\nNaomi",
+    "reply": "Hi Naomi,\n\nGreat news — the Business plan supports unlimited shared inboxes at no additional cost!\n\nYou can add sales@ and billing@ right away: Settings > Shared Inboxes > Create New. You can create separate assignment rules, SLA targets, and team members for each inbox, which makes it easy to keep the teams focused.\n\nMany of our customers run 5-10 shared inboxes across departments. If you want, I can share some best-practice templates for structuring multi-inbox workflows.\n\nHiver Support"
+  },
+  {
+    "id": 16,
+    "category": "feature_request",
+    "subject": "Slack integration — any plans?",
+    "incoming_email": "Hi,\n\nMy team uses Slack heavily. Would love to get Hiver notifications in Slack when a new email is assigned to me or a conversation is updated. Is this on the roadmap? Any workarounds in the meantime?\n\n— Felix",
+    "reply": "Hi Felix,\n\nYes! A native Slack integration is on our roadmap and it's actually one of our most requested features. I don't have a firm release date to share just yet, but I can add you to the early access list so you're notified as soon as it's available.\n\nIn the meantime, a solid workaround: Hiver supports email notifications, and you can pipe those into a Slack channel using Slack's 'Email to Slack' feature (under your Slack workspace settings). It's not as elegant as a native integration but it bridges the gap.\n\nWould you like me to add you to the beta list?\n\nHiver Support"
+  },
+  {
+    "id": 17,
+    "category": "feature_request",
+    "subject": "Better analytics — team performance reports",
+    "incoming_email": "Hello,\n\nI manage a support team of 20 and I need better reporting. Specifically: average first response time per agent, resolution rate by category, and email volume trends by day/week. Does Hiver support this or is it coming?\n\nRegards,\nTara Wilson, Support Director",
+    "reply": "Hi Tara,\n\nThank you for the detailed feedback — this is exactly the kind of input that shapes our roadmap.\n\nHiver's current analytics (Reports tab) covers email volume, response time averages, and resolution rates at the team level. Per-agent breakdowns and category-level filtering are available on our Elite plan if you're not already on it.\n\nThe day/week volume trend chart is available now: Reports > Volume > Group by Day.\n\nFor the per-agent first response time breakdown specifically — that's a feature we're actively working on. I'll add your vote and your use case to the product team's tracker. Would a bi-weekly CSV export of raw data work as a stopgap until the dashboard feature ships?\n\nHiver Support"
+  },
+  {
+    "id": 18,
+    "category": "feature_request",
+    "subject": "API access for custom integrations",
+    "incoming_email": "Hi Hiver,\n\nWe're a developer team and we'd like to integrate Hiver with our internal CRM. Is there a public REST API? We need to be able to create tickets, update statuses, and pull conversation data programmatically.\n\nThanks,\nAlex (Dev Lead)",
+    "reply": "Hi Alex,\n\nYes — Hiver has a REST API that covers conversations, assignments, notes, and status updates. API access is available on Business and Enterprise plans.\n\nYou can find the full API documentation at developers.hiver.com, including authentication (API key-based), rate limits, and endpoint references. We also have a Postman collection you can fork to get started quickly.\n\nFor pulling conversation data programmatically, the /conversations endpoint supports filtering by inbox, date range, assignee, and status.\n\nIf you run into anything during integration, our developer support channel (in the docs) is pretty responsive. Happy to connect you with our solutions engineering team if you need a deeper walkthrough.\n\nHiver Support"
+  },
+  {
+    "id": 19,
+    "category": "feature_request",
+    "subject": "Bulk import of email templates",
+    "incoming_email": "Hi,\n\nWe have about 150 canned responses in our old helpdesk tool and we're migrating to Hiver. Is there a way to bulk import them? Creating them one by one will take forever.\n\n- Preethi",
+    "reply": "Hi Preethi,\n\nTotally understand — 150 one-by-one would be brutal! Unfortunately, there's no self-serve bulk import UI right now, but we can do it for you.\n\nIf you export your canned responses from your old tool as a CSV (or even copy them into a Google Sheet with columns: Title, Body, Category), send it over and our team will import them into your Hiver workspace within 1-2 business days.\n\nBulk import is also on our product roadmap as a self-serve feature, so this process will get easier in the future. For now, send over the file and we'll handle it.\n\nHiver Support"
+  },
+  {
+    "id": 20,
+    "category": "complaint",
+    "subject": "Same issue for the third time — very frustrated",
+    "incoming_email": "Hi,\n\nThis is the THIRD time I'm writing about the same problem: my Gmail sync breaks every few weeks and I have to go through the re-authentication process again. Tickets #4421, #4892, #5103. Each time I'm told it's 'fixed' but it comes back. I'm losing patience. What is actually being done about this?\n\n— Marcus Reid",
+    "reply": "Hi Marcus,\n\nI'm truly sorry — having to deal with the same issue three times is unacceptable, and your frustration is completely valid.\n\nI've pulled all three tickets (#4421, #4892, #5103) and I can see the previous fixes were addressing symptoms rather than the root cause. I'm escalating this directly to our engineering team with all three ticket histories and marking it as a recurring P1.\n\nI'll personally own this issue and update you within 24 hours with a root-cause analysis and a permanent fix plan — not another temporary patch.\n\nI'd also like to offer you one month of service credit as an acknowledgment of the disruption this has caused. You shouldn't have to fight for reliable service.\n\nThank you for your patience, Marcus. I won't let this fall through the cracks again.\n\nHiver Support"
+  },
+  {
+    "id": 21,
+    "category": "complaint",
+    "subject": "Outage yesterday cost us real business",
+    "incoming_email": "Yesterday between 2pm-5pm EST your service was down and we couldn't access our support inbox. We had customers waiting for hours. This is unacceptable for a business-critical tool. What's your SLA and are we owed compensation?\n\n— Operations, FastShip Logistics",
+    "reply": "Hello,\n\nThank you for writing in, and I sincerely apologize for the impact yesterday's incident had on your team and your customers.\n\nYou're right to hold us accountable. Yesterday between 14:02 and 17:18 EST we experienced a service degradation affecting shared inbox syncing for a subset of customers. Our post-incident report is being published today at status.hiver.com.\n\nRegarding your SLA: I'd like to review your specific plan's terms with you. Business and Enterprise customers with SLA guarantees are eligible for service credits when uptime falls below the committed threshold. Could you confirm your plan so I can calculate what credit applies?\n\nI'd also like to connect you with your account manager to discuss what additional safeguards we can put in place. You deserve a more resilient setup.\n\nHiver Support"
+  },
+  {
+    "id": 22,
+    "category": "complaint",
+    "subject": "Your support team takes too long to respond",
+    "incoming_email": "Hi,\n\nI submitted a ticket 3 days ago (Ticket #7723) and have still not gotten a meaningful response. Just auto-replies. This is ironic given that you sell customer support software. My issue is urgent — we can't use the product properly.\n\n— Dhruv",
+    "reply": "Hi Dhruv,\n\nYou're absolutely right and I apologize — a 3-day wait with no meaningful response on an active product issue is not the level of service we promise or you deserve.\n\nI've just reviewed Ticket #7723. I'm taking ownership of it right now and will respond with a substantive update within the next 2 hours.\n\nI'm also internally flagging this as a support queue issue — we've had higher-than-normal volume this week and clearly dropped the ball on prioritization.\n\nThank you for the tough but fair feedback, Dhruv. Talk to you very soon.\n\nHiver Support"
+  },
+  {
+    "id": 23,
+    "category": "inquiry",
+    "subject": "Does Hiver work with Outlook / Microsoft 365?",
+    "incoming_email": "Hi,\n\nWe're a Microsoft shop — everyone uses Outlook and Microsoft 365. We've heard great things about Hiver but it looks like it's built for Gmail. Is there any Outlook support or is it Gmail-only?\n\nThanks,\nCaroline",
+    "reply": "Hi Caroline,\n\nGreat question — Hiver is currently built specifically for Gmail and Google Workspace. It works as a Chrome extension layered on top of Gmail, which means it requires a Gmail or Google Workspace account to function.\n\nIf your team is on Microsoft 365 with Outlook, Hiver wouldn't be a direct fit at the moment. We do get this request often, and Microsoft 365 support is something we're evaluating for the future, but I don't want to over-promise on timing.\n\nIf you're open to moving to Google Workspace, many companies make that switch specifically to use tools like Hiver — and the migration is more straightforward than it used to be. Happy to share resources if that's a path worth exploring.\n\nHiver Support"
+  },
+  {
+    "id": 24,
+    "category": "inquiry",
+    "subject": "How many users can I add to Hiver?",
+    "incoming_email": "Hello,\n\nWe're planning to roll out Hiver across our whole company. Around 80 people total, but maybe 30 will actively use the shared inboxes. Do we pay for all 80 or just the active ones? What counts as a 'user'?\n\n— Ben",
+    "reply": "Hi Ben,\n\nGood news — you only pay for users who are added to the Hiver workspace, not everyone in your company.\n\nA 'user' in Hiver is anyone who has been invited and accepted a seat in your workspace. If only 30 people will actively use shared inboxes, you would add those 30 as users and pay for 30 seats. The other 50 wouldn't need to be added at all.\n\nYou can add or remove users at any time, and billing adjusts prorated. There's no penalty for scaling up or down.\n\nWould you like me to put together a quote for 30 seats on the Business plan, including any available volume discounts?\n\nHiver Support"
+  },
+  {
+    "id": 25,
+    "category": "inquiry",
+    "subject": "GDPR compliance and data handling",
+    "incoming_email": "Hi,\n\nWe're based in the EU and our legal team requires confirmation that any tools we use are GDPR compliant. Specifically: where is our data stored, how long is it retained, can we request deletion, and do you have a DPA we can sign?\n\nThank you,\nLegal Team, EuroRetail GmbH",
+    "reply": "Dear Legal Team,\n\nThank you for conducting this due diligence — these are exactly the right questions to ask.\n\nHere are the key data handling details for Hiver:\n- **Data storage**: Customer data is stored on Google Cloud infrastructure in the US by default; EU data residency is available on our Enterprise plan\n- **Retention**: Email data is retained for as long as your account is active plus 30 days post-cancellation, after which it is deleted\n- **Right to deletion**: Yes — you can request full data deletion at any time by submitting a request to privacy@hiver.com; we fulfil these within 30 days\n- **DPA**: Yes, we offer a Data Processing Agreement fully aligned with GDPR Article 28. I'll attach our standard DPA to this email\n\nOur full privacy policy and security documentation is available at hiver.com/security. Would it be helpful to schedule a call with our Data Privacy Officer for your legal team's review?\n\nHiver Support"
+  }
+]
