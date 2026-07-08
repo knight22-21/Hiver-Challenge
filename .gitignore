@@ -1,3 +1,6 @@
+# Private interview notes (not for public repo)
+INTERVIEW_PREP.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +219,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+initial_info.txt
+Problem_Statement.txt
